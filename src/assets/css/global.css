@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+nav {
+    z-index: 999;
+    background-color: white;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-center>h4 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Modal Login & Register */
+.modal-login-register {
+    width: 650px !important;
+}
+
+.login-img {
+    width: 300px;
+}
+
+.login > .left {
+    width: fit-content !important;
+}
+
+.login > .right {
+    width: 300px !important;
+}
+
+.register>.left {
+    width: fit-content !important;
+}
+
+.register > .right {
+    width: 300px !important;
+}
+
+/* Alert */
+.alert {
+    right: 50px;
+    top: 100px;
+    z-index: 9999;
+    transition: all 0.5s ease-in;
+    visibility: hidden !important;
+    display: flex !important;
+}
+
+.alert-show {
+    visibility: visible !important;
+}
+
+.input-icon>img {
+    cursor: pointer;
+}
+
+.input-icon {
+    padding: 5px;
+    display: flex;
+    border: 2px solid grey;
+}
+
+.input-search-nav {
+    border: none;
+    outline: 0;
+    height: 90%;
+    width: 60px;
+    padding-left: 5px;
+    transition: width 0.5s ease-in-out;
+}
+
+.input-icon>input:focus {
+    border: none;
+    outline: 0;
+    width: 200px;
+}
+
+
+.modal-dialog-centered {
+    margin: auto;
+}
+
+.form-group {
+    gap: 10px;
+}
+
+.show {
+    border: 0 !important;
+}
+
+
+/* Spinner */
+.loading-container {
+    background-color: cyan;
+    position: absolute;
+    height: 100%;
+    top: -10px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.wrapper {
+    margin-top: 100px;
+}
+
+/* Default Color */
+.btn-primary {
+    background-color: #FFBB98 !important;
+    border: #FFBB98 1px solid !important;
+}
+
+.color-primary {
+    color: #FFBB90 !important;
+}
+
+input:focus {
+    border: 0 !important;
+}
+
+input {
+    border: 0 !important;
+}
+
+.form-control:focus {
+    box-shadow: #FFBB98 0px 0px 10px 3px !important;
+}
+
+.form-check-input {
+    border: solid 1px black !important;
+}

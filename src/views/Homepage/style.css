@@ -1,0 +1,39 @@
+.container-top {
+    overflow-x: scroll;
+    margin-top: 100px;
+}
+
+.top-list-container {
+    height: auto;
+}
+
+.card-content {
+    height: 280px;
+    width: 100%;
+    background-color: cyan;
+}
+
+.img-top {
+    width: 200px;
+    height: 300px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 12px 10px;
+}
+
+.main-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-list-container {
+    width: 30%;
+    height: fit-content;
+    box-shadow: #FFBB98 0px 0px 10px 5px;
+}
+
+.img-main-content {
+    width: 150px;
+    height: 200px;
+    z-index: 1;
+}
